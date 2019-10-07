@@ -15,6 +15,7 @@
 		9F3A32CD234513FB007A3707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3A32CB234513FB007A3707 /* LaunchScreen.storyboard */; };
 		9F3A32D8234513FB007A3707 /* TestingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A32D7234513FB007A3707 /* TestingAppTests.swift */; };
 		9F3A32E3234513FB007A3707 /* TestingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A32E2234513FB007A3707 /* TestingAppUITests.swift */; };
+		F33C9F88234B3B7B00505CA9 /* GeneralExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33C9F87234B3B7B00505CA9 /* GeneralExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9F3A32DE234513FB007A3707 /* TestingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3A32E2234513FB007A3707 /* TestingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppUITests.swift; sourceTree = "<group>"; };
 		9F3A32E4234513FB007A3707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F33C9F87234B3B7B00505CA9 /* GeneralExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralExtension.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9F3A32C9234513FB007A3707 /* Assets.xcassets */,
 				9F3A32CB234513FB007A3707 /* LaunchScreen.storyboard */,
 				9F3A32CE234513FB007A3707 /* Info.plist */,
+				F33C9F87234B3B7B00505CA9 /* GeneralExtension.swift */,
 			);
 			path = TestingApp;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F3A32C5234513F3007A3707 /* ViewController.swift in Sources */,
+				F33C9F88234B3B7B00505CA9 /* GeneralExtension.swift in Sources */,
 				9F3A32C1234513F3007A3707 /* AppDelegate.swift in Sources */,
 				9F3A32C3234513F3007A3707 /* SceneDelegate.swift in Sources */,
 			);
