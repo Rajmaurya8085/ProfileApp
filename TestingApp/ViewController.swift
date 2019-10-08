@@ -24,10 +24,10 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        getUserData{ profileData in
+        getUserData{[weak self] profileData in
             DispatchQueue.main.async {
-            self.profileData = profileData
-            self.tableView.reloadData()
+            self?.profileData = profileData
+            self?.tableView.reloadData()
             }
            
             
